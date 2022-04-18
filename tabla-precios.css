@@ -1,0 +1,78 @@
+body {
+	font-family: 'Akshar', sans-serif;
+}
+
+
+h2{
+	font-family: 'Akshar', sans-serif;
+}
+
+
+.container{
+	margin: 0px auto;
+	width: 100%;
+}
+
+.flex{
+	display: flex;
+	flex-wrap: wrap;
+
+
+}
+
+.text-center{
+	text-align: center;
+}
+
+.columna{
+	background: rgb(228, 228, 228);
+	color: #333;
+	border: solid #333;
+	margin: 0px auto;
+	padding: 10px;
+	border-radius: 5px;
+	box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+	width: 20%;
+	box-sizing: border-box ;
+}
+
+.precio{
+	font-size: 50px;
+	color: #00dac7;
+}
+
+.btn-boton{
+	background: salmon;
+	color: white;
+	display: block;
+	padding: 10px;
+	color: #fff;
+	text-decoration: none;
+	border-radius: 3px;
+	margin-bottom: 10px;
+}
+
+.btn-boton:hover{
+	background:rgb(247,100,84) ;
+
+}
+
+@media (max-width: 1070px){
+
+	.columna{
+		width: 45%;
+		margin-bottom: 20px;
+	}
+
+}
+
+@media(max-width:600px){
+
+	.columna{
+		width: 100%;
+		background-color: blueviolet;
+		margin-bottom: 20px;
+	}
+
+}
+
